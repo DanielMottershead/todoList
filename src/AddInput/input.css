@@ -1,0 +1,36 @@
+.input-container {
+  margin: 20px 0px;
+  display: flex;
+}
+
+.input-area {
+  height: 30px;
+  margin: 0;
+  font-size: 18px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font: sans-serif;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+.input-button {
+  height: 30px;
+  padding: 0px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 0 10px;
+  background-color: springgreen;
+  opacity: 70%;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.input-button:hover {
+  opacity: 100%;
+}
